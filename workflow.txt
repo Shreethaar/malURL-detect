@@ -33,5 +33,15 @@ Method to access:
 - another tools for virustotal, is snort for open-source IDS server
 - flutter service and library for access service-layer (Kotlin)
 
-- 
-- 
+
+ALTERNATIVE APPROACHES:
+1. URL and Domain Blacklists
+- Maintain a database of known malicious URLs and domains. When users access a URL, your app can check it against your blacklist and warn them if it's flagged as suspicious. Regularly update the database with known malicious URLs and domains from sources using APIs
+
+Sources:
+PhishTank
+Google Safe Browsing
+Spamhaus
+MalwareDomains
+
+2. Heuristic Analysis: Implement algorithms that analyze the content of web pages and app for patterns or characteristics associated with malware. This can be a complex task, but it can help identify potential threats without directly intercepting network traffic.
