@@ -2,6 +2,12 @@
 - Interception and URL collection
 Options: MiTMProxy, Android Debug Bridge
 
+Technical Overview:
+1. Android App Development:
+- Android app that has Accessibility Service, to monitor and interact with other apps
+- Capture URLs
+2. Uses a VPN service within the app to monitor network traffic
+
 2. URL Filtering and Prioritizaiton: 
 - Whitelist Management 
 - Heurisitcs-Based Filtering
